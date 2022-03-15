@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</Source>
+    <SmallTileSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</SmallTileSource>
+    <MediumTileSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</MediumTileSource>
+    <WideTileSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</WideTileSource>
+    <LargeTileSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</LargeTileSource>
+    <AppIconSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</AppIconSource>
+    <SplashScreenSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</SplashScreenSource>
+    <PackageLogoSource>E:\Documents\Проекты\Calculator_Plus\Assets\Icon.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

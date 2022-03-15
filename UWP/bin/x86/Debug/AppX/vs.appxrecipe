@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IDEAPAD-L340-MA</Machine>
+    <WindowsUser>maxgo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>145e04f5-9f09-43d2-b5ee-4d6281aaacca</PackageIdentityName>
+    <PackageIdentityPublisher>CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Documents\Проекты\Calculator_Plus\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>478062DAF5C04369269FF9526EDB4BAA87919E51B1F1CFF56816C7C7028D5DC1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>FeatherProjects.CalculatorPlus_1.0.0.0_x86__0te7p3c492kb4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>FeatherProjects.CalculatorPlus_0te7p3c492kb4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>FeatherProjects.CalculatorPlus</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-21T07:04:17.200</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\Calculator_Plus.exe">
+      <PackagePath>entrypoint\Calculator_Plus.exe</PackagePath>
+      <Modified>2021-10-21T07:04:15.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-04T22:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T01:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:16.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:16.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:16.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:16.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-09-08T14:07:54.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:18.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-17T14:54:17.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-10-14T18:35:02.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\Calculator_Plus.xr.xml">
+      <PackagePath>Calculator_Plus.xr.xml</PackagePath>
+      <Modified>2021-10-21T07:04:15.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-10-21T07:04:15.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\CalculatePage.xbf">
+      <PackagePath>CalculatePage.xbf</PackagePath>
+      <Modified>2021-10-21T07:04:15.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-10-21T07:04:15.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\MoneyPage.xbf">
+      <PackagePath>MoneyPage.xbf</PackagePath>
+      <Modified>2021-10-21T07:04:15.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\MortgagePage.xbf">
+      <PackagePath>MortgagePage.xbf</PackagePath>
+      <Modified>2021-10-21T07:04:15.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-01T23:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-10-21T07:04:16.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Проекты\Calculator_Plus\bin\x86\Debug\Core\Calculator_Plus.exe">
+      <PackagePath>Calculator_Plus.exe</PackagePath>
+      <Modified>2021-10-21T07:04:17.187</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

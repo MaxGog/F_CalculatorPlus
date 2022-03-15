@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Calculator_Plus.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator_Plus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="500">
+
+    <Grid>
+        <NavigationView x:Name="NavPanel" PaneDisplayMode="LeftCompact" SelectionChanged="NavPanel_SelectionChanged">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" x:Uid="NavPanel_Home" x:Name="Home_Page"/>
+                <NavigationViewItem Icon="Calculator" x:Uid="NavPanel_Calculate" x:Name="Calculator_Page"/>
+                <NavigationViewItem Icon="Calculator" x:Uid="NavPanel_Money" x:Name="Money_Page"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="ContentView">
+                <GridView x:Name="SelectPage" IsItemClickEnabled="True" ItemClick="SelectPage_ItemClick" SelectionMode="Single">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="100" Height="150" Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="{Binding Icon}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" Grid.Row="0"/>
+                                <TextBlock Text="{Binding Name_str}" HorizontalAlignment="Center" Grid.Row="1"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                    <GridView.Items>
+                        <local:Functionality Icon="➕" Name_str="Calculate" x:Name="calculate"/>
+                        <local:Functionality Icon="💱" Name_str="Money" x:Name="money"/>
+                        <local:Functionality Icon="🔢" Name_str="Number system" x:Name="number_system"/>
+                    </GridView.Items>
+                </GridView>
+            </Frame>
+        </NavigationView>
+    </Grid>
+</Page>
